@@ -37,6 +37,7 @@ int queensAttack(int n, int k, int r_q, int c_q, vector<vector<int>> obstacles) 
     int BRB = min(BB, RB);
     int BLB = min(BB, LB);
     
+    
     for(int i = 0; i < k; i++) {
         if(obstacles.at(i).at(0) == r_q) {
             if(c_q > obstacles.at(i).at(1)) {
