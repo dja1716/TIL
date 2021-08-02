@@ -1,4 +1,5 @@
 #include <bits/stdc++.h>
+#include <limits>
 
 using namespace std;
 
@@ -18,100 +19,52 @@ vector<string> split(const string &);
  *  5. 2D_INTEGER_ARRAY obstacles
  */
 
-int queensAttack(int n, int k, int r_q, int c_q, vector<vector<int>> obstacles) {
-    int answer = 0;
-    int R, C;
-    r_q--;
-    c_q--;
-    vector<vector<bool>> board;
-    for(int i = 0; i < n; i++) {
-        vector<bool> temp;
-        for(int j = 0; j < n; j++) {
-            temp.emplace_back(true);
-        }
-        board.emplace_back(temp);
+int min(int a, int b) {
+    if(a < b) {
+        return a;
+    } else {
+        return b;
     }
+}
+
+int queensAttack(int n, int k, int r_q, int c_q, vector<vector<int>> obstacles) {
+    int RB = n - c_q;
+    int LB = c_q - 1;
+    int TB = n - r_q;
+    int BB = r_q - 1;
+    int TRB = min(TB, RB);
+    int TLB = min(TB, LB);
+    int BRB = min(BB, RB);
+    int BLB = min(BB, LB);
     
     for(int i = 0; i < k; i++) {
-        board.at(obstacles.at(i).at(0) - 1).at(obstacles.at(i).at(1) - 1) = false;
+        if(obstacles.at(i).at(0) == r_q) {
+            if(c_q > obstacles.at(i).at(1)) {
+                LB = min(LB, c_q - obstacles.at(i).at(1) - 1);
+            } else {
+                RB = min(RB, obstacles.at(i).at(1) - c_q - 1);
+            }
+        } else if(obstacles.at(i).at(1) == c_q) {
+            if(r_q > obstacles.at(i).at(0)) {
+                BB = min(BB, r_q - obstacles.at(i).at(0) - 1);
+            } else {
+                TB = min(TB, obstacles.at(i).at(0) - r_q - 1);
+            }
+        } else if(obstacles.at(i).at(0) - r_q == obstacles.at(i).at(1) - c_q) {
+            if(r_q > obstacles.at(i).at(0)) {
+                BLB = min(BLB, r_q - obstacles.at(i).at(0) - 1);
+            } else {
+                TRB = min(TRB, obstacles.at(i).at(0) - r_q - 1);
+            }
+        } else if(obstacles.at(i).at(0) - r_q == c_q - obstacles.at(i).at(1)) {
+            if(r_q > obstacles.at(i).at(0)) {
+                BRB = min(BRB, r_q - obstacles.at(i).at(0) - 1);
+            } else {
+                TLB = min(TLB, obstacles.at(i).at(0) - r_q - 1);
+            }
+        }
     }
-    // top
-    R = r_q + 1;
-    C = c_q;
-    
-    while(R < n && board.at(R).at(C)) {
-        answer++;
-        R++;
-    }
-    
-    // bottom
-    R = r_q - 1;
-    C = c_q;
-    
-    while(R >= 0 && board.at(R).at(C)) {
-        answer++;
-        R--;
-    }
-    
-    // left
-    R = r_q;
-    C = c_q - 1;
-    
-    while(C >= 0 && board.at(R).at(C)) {
-        answer++;
-        C--;
-    }
-    
-    // right
-    R = r_q;
-    C = c_q + 1;
-    
-    while(C < n && board.at(R).at(C)) {
-        answer++;
-        C++;
-    }
-    
-    // right top
-    R = r_q + 1;
-    C = c_q + 1;
-    
-    while(R < n && C < n && board.at(R).at(C)) {
-        answer++;
-        C++;
-        R++;
-    }
-    
-    // left top
-    R = r_q + 1;
-    C = c_q - 1;
-    
-    while(R < n && C >= 0 && board.at(R).at(C)) {
-        answer++;
-        C--;
-        R++;
-    }
-    
-    // left bottom
-    R = r_q - 1;
-    C = c_q - 1;
-    
-    while(R >= 0 && C >= 0 && board.at(R).at(C)) {
-        answer++;
-        C--;
-        R--;
-    }
-    
-    
-    // right bottom
-    R = r_q - 1;
-    C = c_q + 1;
-    
-    while(R >= 0 && C < n && board.at(R).at(C)) {
-        answer++;
-        C++;
-        R--;
-    }
-    return answer;
+    return RB + LB + TB + BB + TRB + TLB + BRB + BLB;
 }
 
 int main()
