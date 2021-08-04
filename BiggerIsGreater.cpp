@@ -22,14 +22,14 @@ string biggerIsGreater(string w) {
     while(index >= 0) {
         auto jt = data.end();
         jt--;
+        
+        if(data.find(w.at(index)) == data.end()) {
+            data.insert(make_pair(w.at(index), 1));
+        } else {
+            data.at(w.at(index))++;
+        }
+        
         if(w.at(index) < jt->first) {
-            
-            if(data.find(w.at(index)) == data.end()) {
-                data.insert(make_pair(w.at(index), 1));
-            } else {
-                data.at(w.at(index))++;
-            }
-            
             for(auto it = data.begin(); it != data.end(); it++) {
                 if(it->first > w.at(index)) {
                     it->second--;
@@ -48,13 +48,8 @@ string biggerIsGreater(string w) {
             break;
         }
         
-        if(data.find(w.at(index)) == data.end()) {
-            data.insert(make_pair(w.at(index), 1));
-        } else {
-            data.at(w.at(index))++;
-        }
-        
         index--;
+        
     }
     
     return answer;
