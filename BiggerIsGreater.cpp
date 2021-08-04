@@ -19,38 +19,37 @@ string biggerIsGreater(string w) {
     data.insert(make_pair(w.at(index), 1));
     index--;
     
-    while(index >= 0) {
+    for(int i = index; i >= 0; i--) {
         auto jt = data.end();
         jt--;
         
-        if(data.find(w.at(index)) == data.end()) {
-            data.insert(make_pair(w.at(index), 1));
+        if(data.find(w.at(i)) == data.end()) {
+            data.insert(make_pair(w.at(i), 1));
         } else {
-            data.at(w.at(index))++;
+            data.at(w.at(i))++;
         }
         
-        if(w.at(index) < jt->first) {
+        if(w.at(i) < jt->first) {
             for(auto it = data.begin(); it != data.end(); it++) {
-                if(it->first > w.at(index)) {
+                if(it->first > w.at(i)) {
                     it->second--;
-                    w.at(index) = it->first;
+                    w.at(i) = it->first;
                     break;
                 }
             }
             
             for(auto it = data.begin(); it != data.end(); it++) {
-                for(int i = 0; i < it->second; i++) {
-                    index++;
-                    w.at(index) = it->first;
+                for(int j = 0; j < it->second; j++) {
+                    i++;
+                    w.at(i) = it->first;
                 }
             }
             answer = w;
             break;
         }
-        
-        index--;
-        
     }
+    
+    
     
     return answer;
 }
