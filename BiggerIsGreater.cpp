@@ -49,8 +49,6 @@ string biggerIsGreater(string w) {
         }
     }
     
-    
-    
     return answer;
 }
 
