@@ -49,13 +49,6 @@ vector<int> solution(vector<int> weights, vector<string> head2head) {
         
     }
     
-    for(int i = 0; i < vb.size(); i++) {
-        cout << "win rate: " << vb.at(i).winRate;
-        cout << "wins from heavies: " << vb.at(i).winFromHeavies;
-        cout << "weight: " << vb.at(i).weight;
-        cout << "number: " << vb.at(i).number << endl;
-    }
-    
     int minIndex;
     Boxer tempBoxer;
     for(int i = 0; i < vb.size() - 1; i++) {
