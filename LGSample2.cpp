@@ -108,10 +108,10 @@ int main()
    v.emplace_back(make_pair(temp, 0));
   }
   solution();
-//   for(int i = 0; i < n; i++) {
-//       cout << v.at(i).first << v.at(i).second << endl;
-//       result += v.at(i).first * v.at(i).second;
-//   }
+   for(int i = 0; i < n; i++) {
+       cout << v.at(i).first << v.at(i).second << endl;
+       result += v.at(i).first * v.at(i).second;
+   }
   cout << "result: " << result << endl;
 
   return 0;
