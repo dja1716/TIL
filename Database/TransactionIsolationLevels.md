@@ -3,6 +3,7 @@ https://fauna.com/blog/introduction-to-transaction-isolation-levels#perfect-isol
 https://en.wikipedia.org/wiki/Serializability <br />
 https://blog.bytebytego.com/p/free-system-design-pdf-158-pages <br />
 https://medium.com/myinterest/%EB%8F%99%EC%8B%9C%EC%84%B1-%EC%A0%9C%EC%96%B4-%EA%B8%B0%EB%B2%95%EC%9D%98-anomaly-bad-dependency-306c9c25a4f9 <br />
+https://incheol-jung.gitbook.io/docs/q-and-a/db/isolation-level
 
 # Transaction Isolation Levels
 
@@ -82,9 +83,15 @@ https://medium.com/myinterest/%EB%8F%99%EC%8B%9C%EC%84%B1-%EC%A0%9C%EC%96%B4-%EA
 
 
 * Unrepeatable Read
-  * same SELECT query results differ
+  * same SELECT query results differ (similary with Phantom Read)
 
 ![스크린샷 2022-11-15 오후 8 01 01](https://user-images.githubusercontent.com/20631646/201903912-ed34e954-3272-4dc0-a0e5-223e054c1aff.png)
+
+
+* Phantom Read
+  * same SELECT query results differ (similary with Phantom Read)
+
+![스크린샷 2022-11-15 오후 8 04 25](https://user-images.githubusercontent.com/20631646/201904570-b37f9b7d-793d-4d07-9c94-358f410c6f81.png)
 
 
 ### I got curious that if I can optimize sql transactions on current and future backend system (Nest Js)
