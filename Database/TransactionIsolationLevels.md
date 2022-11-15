@@ -2,6 +2,7 @@
 https://fauna.com/blog/introduction-to-transaction-isolation-levels#perfect-isolation <br />
 https://en.wikipedia.org/wiki/Serializability <br />
 https://blog.bytebytego.com/p/free-system-design-pdf-158-pages <br />
+https://medium.com/myinterest/%EB%8F%99%EC%8B%9C%EC%84%B1-%EC%A0%9C%EC%96%B4-%EA%B8%B0%EB%B2%95%EC%9D%98-anomaly-bad-dependency-306c9c25a4f9 <br />
 
 # Transaction Isolation Levels
 
@@ -66,8 +67,12 @@ https://blog.bytebytego.com/p/free-system-design-pdf-158-pages <br />
 * ex, one copy-serializability (1SR), strict serializability (strict 1SR) or update serializability (US)
   * strict serializability is the most perfect
 
+![스크린샷 2022-11-15 오후 7 49 20](https://user-images.githubusercontent.com/20631646/201901423-5781ff76-1144-40a0-935a-452dfac4e3de.png)
 
+## Anomalies in Concurrent Systems
 
+* lost-update anomaly
+  * ex, transaction1's write overwritten.
 
 ### I got curious that if I can optimize sql transactions on current and future backend system (Nest Js)
 
