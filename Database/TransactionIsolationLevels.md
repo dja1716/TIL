@@ -11,8 +11,8 @@ https://blog.bytebytego.com/p/free-system-design-pdf-158-pages <br />
 
 * Isolation Levels
   * Serializability (High Isolation Level)
- * Read Committed
- * Read Uncommitted (Low Isolation Level)
+  * Read Committed
+  * Read Uncommitted (Low Isolation Level)
 
 
 * Sticking with the default isolation level of database system is not good -> should consider which isolation level is optimal for the application
