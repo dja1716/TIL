@@ -1,12 +1,15 @@
 ### STUDY REFERENCE: 
 https://fauna.com/blog/introduction-to-transaction-isolation-levels#perfect-isolation <br />
-https://en.wikipedia.org/wiki/Serializability
+https://en.wikipedia.org/wiki/Serializability <br />
+https://blog.bytebytego.com/p/free-system-design-pdf-158-pages <br />
 
 # Transaction Isolation Levels
 
+
+## Introduction
+
+
 * Isolation Levels
-
-
 - Serializability (High Isolation Level)
 - Read Committed
 - Read Uncommitted (Low Isolation Level)
@@ -25,6 +28,30 @@ https://en.wikipedia.org/wiki/Serializability
 
 
 * What is Serializability? Serializability is the major corrrectness criterion for concurrent transactions' executions
+
+
+## What is an Isolation Level?
+
+
+* Database isolation - the ability of a database to allow a transaction to execute as if there are no other concurrently running transactions (actually, there is a lot of concurrent transactions
+
+
+* the goal of database isolation is to prevent reads and writes of temporary, aborted, or incorrect database written by concurrent transactions
+
+
+* Perfect database isolation comes as a performance cost in terms of transaction latency
+
+
+* In poorly designed systems, achieving perfection comes with a prohibitive performance cost.
+
+
+* Database isolation is not a magic solution for performance.
+
+
+## Perfect Isolation
+
+
+
 
 
 
