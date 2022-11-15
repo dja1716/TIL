@@ -1,5 +1,5 @@
 ### STUDY REFERENCE: 
-https://fauna.com/blog/introduction-to-transaction-isolation-levels#perfect-isolation
+https://fauna.com/blog/introduction-to-transaction-isolation-levels#perfect-isolation <br />
 https://en.wikipedia.org/wiki/Serializability
 
 # Transaction Isolation Levels
