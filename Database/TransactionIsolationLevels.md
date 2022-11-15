@@ -11,8 +11,8 @@ https://blog.bytebytego.com/p/free-system-design-pdf-158-pages <br />
 
 * Isolation Levels
   * Serializability (High Isolation Level)
-- Read Committed
-- Read Uncommitted (Low Isolation Level)
+ * Read Committed
+ * Read Uncommitted (Low Isolation Level)
 
 
 * Sticking with the default isolation level of database system is not good -> should consider which isolation level is optimal for the application
@@ -52,19 +52,19 @@ https://blog.bytebytego.com/p/free-system-design-pdf-158-pages <br />
 
 
 * code is run serially one after the other
-- can achieved via locking, validation or multi-versioning
+ * can achieved via locking, validation or multi-versioning
 
 
 * It may appear that perfection is impossible. If two transactions both read and write the same data item, it is critical that they impact each other.
-- ex, when (concurrent) trancations ignore each other, whichever transaction completes the write last could clobber the first transaction, resulting in the same final state as if it never ran
+ * ex, when (concurrent) trancations ignore each other, whichever transaction completes the write last could clobber the first transaction, resulting in the same final state as if it never ran
 
 
 * Ensuring correctness of code when there are no other concurrent processes running in the system is non-trivial
-- when above correctness is ensured, a system that guarantees perfect isolation will ensure that the code remains correct even when there is other code running concurrently in the system
+ * when above correctness is ensured, a system that guarantees perfect isolation will ensure that the code remains correct even when there is other code running concurrently in the system
 
 
 * ex, one copy-serializability (1SR), strict serializability (strict 1SR) or update serializability (US)
-- strict serializability is the most perfect
+ * strict serializability is the most perfect
 
 
 
