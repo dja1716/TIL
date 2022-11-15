@@ -76,7 +76,15 @@ https://medium.com/myinterest/%EB%8F%99%EC%8B%9C%EC%84%B1-%EC%A0%9C%EC%96%B4-%EA
 ![스크린샷 2022-11-15 오후 7 49 20](https://user-images.githubusercontent.com/20631646/201901423-5781ff76-1144-40a0-935a-452dfac4e3de.png)
 
 
+* dirty-read anomaly
+  * ex, reading non-existing data
+![스크린샷 2022-11-15 오후 7 52 02](https://user-images.githubusercontent.com/20631646/201902117-62256858-257e-42b5-9205-a9a28b7ff63a.png)
 
+
+* Unrepeatable Read
+  * same SELECT query results differ
+
+![스크린샷 2022-11-15 오후 8 01 01](https://user-images.githubusercontent.com/20631646/201903912-ed34e954-3272-4dc0-a0e5-223e054c1aff.png)
 
 
 ### I got curious that if I can optimize sql transactions on current and future backend system (Nest Js)
