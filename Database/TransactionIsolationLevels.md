@@ -94,6 +94,19 @@ https://incheol-jung.gitbook.io/docs/q-and-a/db/isolation-level
 ![스크린샷 2022-11-15 오후 8 04 25](https://user-images.githubusercontent.com/20631646/201904570-b37f9b7d-793d-4d07-9c94-358f410c6f81.png)
 
 
+## Definitions in the ISO SQL Standard
+
+![스크린샷 2022-11-15 오후 8 10 15](https://user-images.githubusercontent.com/20631646/201905488-195adbb9-c24f-45ec-9fe5-64f99a24976d.png)
+
+
+## Posible Problems
+
+1. there are more than other concurrency bugs than above chart covers
+2. using anomalies to define isolation levels only gives the end user a guarantee of what specific types of concurrency bugs are impossible.
+
+The bottom line is this: it is nearly impossible to give clear definitions of the actual isolation levels available to application developers, because vagueness and ambiguities in the SQL standard has led to semantic differences across implementations/systems
+
+
 ### I got curious that if I can optimize sql transactions on current and future backend system (Nest Js)
 
 
