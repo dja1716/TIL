@@ -1,4 +1,6 @@
-### STUDY REFERENCE: https://fauna.com/blog/introduction-to-transaction-isolation-levels#perfect-isolation
+### STUDY REFERENCE: 
+https://fauna.com/blog/introduction-to-transaction-isolation-levels#perfect-isolation
+https://en.wikipedia.org/wiki/Serializability
 
 # Transaction Isolation Levels
 
@@ -19,7 +21,10 @@
 * (of course), isolation levels weaker than serializability can lead to concurrency bugs in an application and negative user experiences
 
 
-* 
+* There are more types of levels (ex, strict serializability, one-copy serializability)
+
+
+* What is Serializability? Serializability is the major corrrectness criterion for concurrent transactions' executions
 
 
 
