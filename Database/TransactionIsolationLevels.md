@@ -10,7 +10,7 @@ https://blog.bytebytego.com/p/free-system-design-pdf-158-pages <br />
 
 
 * Isolation Levels
-- Serializability (High Isolation Level)
+** Serializability (High Isolation Level)
 - Read Committed
 - Read Uncommitted (Low Isolation Level)
 
