@@ -48,13 +48,23 @@ https://blog.bytebytego.com/p/free-system-design-pdf-158-pages <br />
 * Database isolation is not a magic solution for performance.
 
 
-## Perfect Isolation
+## Perfect Isolation (Serializability)
 
 
+* code is run serially one after the other
+- can achieved via locking, validation or multi-versioning
 
 
+* It may appear that perfection is impossible. If two transactions both read and write the same data item, it is critical that they impact each other.
+- ex, when (concurrent) trancations ignore each other, whichever transaction completes the write last could clobber the first transaction, resulting in the same final state as if it never ran
 
 
+* Ensuring correctness of code when there are no other concurrent processes running in the system is non-trivial
+- when above correctness is ensured, a system that guarantees perfect isolation will ensure that the code remains correct even when there is other code running concurrently in the system
+
+
+* ex, one copy-serializability (1SR), strict serializability (strict 1SR) or update serializability (US)
+- strict serializability is the most perfect
 
 
 
