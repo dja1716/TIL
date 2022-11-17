@@ -72,3 +72,49 @@ export class Photo {
     metadata: PhotoMetadata
 }
 ```
+- when you save a photo object, and the metadata object will be saved automatically because of cascade options
+- connecting two objects is essential
+
+### @ManyToOne / @OneToMany
+ex.
+```javascript
+@Entity()
+export class Author {
+    @PrimaryGeneratedColumn()
+    id: number
+
+    @Column()
+    name: string
+
+    @OneToMany(() => Photo, (photo) => photo.author) // note: we will create author property in the Photo class below
+    photos: Photo[]
+}
+
+@Entity()
+export class Photo {
+    /* ... other columns */
+
+    @ManyToOne(() => Author, (author) => author.photos)
+    author: Author
+}
+```
+- OneToMany is always an inverse side of the relation. it can't exist without ManyToOne on the other side of the relation.
+- In many-to-one/one-to-many relation, the owner side is always many-to-one
+    - meaining that the class that use @ManyToOne will store the id of the related object
+
+### ManyToMany
+- @JoinTable is required to specify that this is the owner side of the relationship
+- Database looks like this
+    - ex.
+ ```
++-------------+--------------+----------------------------+
+|                album_photos_photo_albums                |
++-------------+--------------+----------------------------+
+| album_id    | int(11)      | PRIMARY KEY FOREIGN KEY    |
+| photo_id    | int(11)      | PRIMARY KEY FOREIGN KEY    |
++-------------+--------------+----------------------------+
+```
+
+## wanna know more
+- what is a reason that owner side and owned side is divided? (more of why they made system like this. efficiency?)
+- join system more deeply (ex. inner, left) on each types and when to use
