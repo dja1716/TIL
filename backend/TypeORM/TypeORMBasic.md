@@ -11,3 +11,8 @@ https://gongmeda.tistory.com/51 <br />
 
 ## why do we use ORM?
 -  NestJS is designed to code object-orientedly
+-  Application (object-oriented) <-> DB (Table)
+
+## weakness of ORM
+-  As logic get complicated, ORM's optimization becomes not enough.
+-  For complicated queries, creating SQL by own is better
