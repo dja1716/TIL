@@ -1,5 +1,6 @@
 ### Reference:
 https://gongmeda.tistory.com/51 <br />
+https://typeorm.io/ <br />
 
 # what is typeORM?
 
@@ -13,6 +14,10 @@ https://gongmeda.tistory.com/51 <br />
 -  NestJS is designed to code object-orientedly
 -  Application (object-oriented) <-> DB (Table)
 
+
 ## weakness of ORM
 -  As logic get complicated, ORM's optimization becomes not enough.
 -  For complicated queries, creating SQL by own is better
+
+
+##
