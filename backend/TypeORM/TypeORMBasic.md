@@ -20,4 +20,22 @@ https://typeorm.io/ <br />
 -  For complicated queries, creating SQL by own is better
 
 
-##
+## Basic Structure
+
+### model
+- model is a database table.
+
+### @Entity
+- Entity is model decorator (@Entity).
+
+### @Column
+- literally Column
+- explicitely specifying a column type into the @Column is possible
+
+
+### @Primary Coumn
+- Each entity must have at least one primary key column
+
+
+### @PrimaryGeneratedColumn
+- auto generate primary column (ex. id // auto-increment / sequence / serial generated identity column)
