@@ -11,6 +11,6 @@ https://www.daleseo.com/js-json/ <br />
 ## JSON.parse()
 * convert JSON string to JavaScript object
 ex. 
-'''
+```
 const obj = JSON.parse(str);
-'''
+```
