@@ -14,3 +14,9 @@ ex.
 ```javascript
 const obj = JSON.parse(str);
 ```
+## JSON.stringify()
+* convert JavaScript object to JSON string
+ex.
+```javascript
+const str = JSON.stringify(obj);
+```
