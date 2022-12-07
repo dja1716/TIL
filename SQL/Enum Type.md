@@ -25,3 +25,16 @@ update some_table set some_column = _some_column::text::some_enum_type;
 alter table some_table drop column _some_column;
 drop type _some_enum_type;
 ```
+### Deleting a single value of an existing enum
+* need to set no default to change
+```postgresql
+create type application_status_enum_new as enum ('Disapproved', 'Approved', 'Pending', 'Enrolled');
+
+ALTER TABLE applications 
+  ALTER COLUMN status TYPE application_status_enum_new 
+    USING (status::text::application_status_enum_new );
+    
+drop type application_status_enum;
+
+alter type application_status_enum_new  rename to application_status_enum
+```
