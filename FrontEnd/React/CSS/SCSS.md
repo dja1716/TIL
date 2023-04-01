@@ -50,3 +50,24 @@ body {
   color: white;
 }
 ```
+
+# Mixins
+```scss
+@mixin theme($theme: DarkGray) {
+  background: $theme;
+  box-shadow: 0 0 1px rgba($theme, .25);
+  collor: #fff;
+}
+
+.info {
+  @include theme;
+}
+
+.alert {
+  @include theme($theme: DarkRed);
+}
+
+.success {
+  @include thteme($theme: DarkGreen);
+}
+```
