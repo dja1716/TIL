@@ -127,3 +127,24 @@ body {
   border-color: yellow;
 }
 ```
+
+# Operators
+```scss
+@use "sass:math";
+
+.container {
+  display: flex;
+}
+
+article[role="main"] {
+  width: math.div(600px, 960px) * 100%;
+}
+
+aside[role="complementary"] {
+  width: math.div(300px, 960px) * 100%;
+  margin-left: auto;
+}
+```
+
+```css
+```
