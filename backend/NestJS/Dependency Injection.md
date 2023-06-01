@@ -4,3 +4,8 @@
 - The **Liskov substitution principle**: "Functions that use pointers or references to base classes must be able to use objects of derived classes without knowing it
 - The **Interface segregation principle**: "Clients should not be forced to depend upon interfaces that they do not use
 - the **Dependency inversion prinvicple**: "Depend upon abstractions, [not] concretions"
+- reference: https://en.wikipedia.org/wiki/SOLID#:~:text=The%20SOLID%20concepts%20are,%2C%20but%20closed%20for%20modification.%22
+
+### Understanding dependency injection - ANGULAR
+- Dependency injection, or DI, is one of the fundamental concepts in Angular
+- reference: https://angular.io/guide/dependency-injection
