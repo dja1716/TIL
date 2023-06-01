@@ -29,3 +29,4 @@
   3. Inject the provider: You cna now inject the provider into other classes that require its functionality. You can do this by using the @Inject() decorator or by adding the provider as a constructor parameter
 
 - ways to implements injection (class-based injection / property-based injection / factory providers)
+- By default, providers in NestJS are singleton-scoped, which means that the DI container creates only one instance of each provider and shares it across the entire application
