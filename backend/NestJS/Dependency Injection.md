@@ -20,3 +20,6 @@
 - **services** - the main business unit and it's intermediate layer between controllers and repositories
 - **repositories** - responsible for communication with any persistent layer, it may be either any relational DB (Postgres, MySQL) or NoSQL DB (MongoDB, Redis)
 - reference: https://medium.com/geekculture/nestjs-and-dependency-injection-3ce0886148c4
+
+# Nest js document
+- When the application is bootstrapped, every dependency must be resolved, and therefore every provider has to be instantiated
