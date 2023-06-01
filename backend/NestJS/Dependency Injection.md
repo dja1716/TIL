@@ -23,3 +23,5 @@
 
 # Nest js document
 - When the application is bootstrapped, every dependency must be resolved, and therefore every provider has to be instantiated
+- To use dependency injection in NestJS, you need to follow these steps:
+  1. Create a provider: A provider is a class that creates and manages a particular type of object. You can create a provider by adding the @Injectable() decorator to a class
