@@ -6,7 +6,10 @@
 - the **Dependency inversion prinvicple**: "Depend upon abstractions, [not] concretions"
 - reference: https://en.wikipedia.org/wiki/SOLID#:~:text=The%20SOLID%20concepts%20are,%2C%20but%20closed%20for%20modification.%22
 
-### Understanding dependency injection - ANGULAR
+# Understanding dependency injection - ANGULAR
 - Dependency injection, or DI, is one of the fundamental concepts in Angular
 - Two main roles exist in the DI system: dependency consumer and dependency provider.
-- reference: https://angular.io/guide/dependency-injection
+- Angular facilitates the interaction between dependency consumers and dependency providers using an abstraction called Injector
+## injector
+- An object in the Angular dependency-injection system that can find a named dependency in its cache or create a dependency using a configured provider
+## reference: https://angular.io/guide/dependency-injection
