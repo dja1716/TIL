@@ -8,4 +8,5 @@
 
 ### Understanding dependency injection - ANGULAR
 - Dependency injection, or DI, is one of the fundamental concepts in Angular
+- Two main roles exist in the DI system: dependency consumer and dependency provider.
 - reference: https://angular.io/guide/dependency-injection
