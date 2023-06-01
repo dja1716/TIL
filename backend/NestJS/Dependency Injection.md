@@ -12,6 +12,11 @@
 - Angular facilitates the interaction between dependency consumers and dependency providers using an abstraction called Injector
 - When a dependency is requested, the injector checks its registry to see if there is an instance already available there. If not, a new instance is created and stored in the registry
 - Angular creates an application-wide injector (also known as "root" injector) during the application bootstrap process, as well as any other injectors as needed.
-## injector
 - An object in the Angular dependency-injection system that can find a named dependency in its cache or create a dependency using a configured provider
-## reference: https://angular.io/guide/dependency-injection
+- reference: https://angular.io/guide/dependency-injection
+
+# NestJS and Dependency Injection
+- **controllers** - usually responsible for getting http requests from the particular route and invocation of domain specific services and preparation http responses
+- **services** - the main business unit and it's intermediate layer between controllers and repositories
+- **repositories** - responsible for communication with any persistent layer, it may be either any relational DB (Postgres, MySQL) or NoSQL DB (MongoDB, Redis)
+- reference: https://medium.com/geekculture/nestjs-and-dependency-injection-3ce0886148c4
