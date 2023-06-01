@@ -27,3 +27,5 @@
   1. Create a provider: A provider is a class that creates and manages a particular type of object. You can create a provider by adding the @Injectable() decorator to a class
   2. Register the provider: You need to register the provider with the DI container. You can do this by adding the provider to the providers array of a module or by using the @Injectable() decorator to specify the provider's scope.
   3. Inject the provider: You cna now inject the provider into other classes that require its functionality. You can do this by using the @Inject() decorator or by adding the provider as a constructor parameter
+
+- ways to implements injection (class-based injection / property-based injection / factory providers)
