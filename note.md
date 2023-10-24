@@ -52,3 +52,20 @@ rl.on('line', function(line) {
  console.log(input);
  process.exit();
 });
+```
+* Number와 String 형태 변환
+```javascript
+/*
+Int -> String
+*/
+let a = "777";
+let b = Number(a);
+console.log(b); // 777
+
+/*
+String -> Int
+*/
+let a = 777;
+let b = String(a);
+console.log(b); // "777"
+```
