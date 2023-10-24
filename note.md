@@ -26,3 +26,12 @@ for(let i = 1; i <= 100; i++) {
 
 console.log(answer);
 ```
+* 코딩 테스트용 JavaScript 기본 입력 - fs 모듈
+ * 기능: 전체 텍스트를 읽어 온 뒤에, 줄바꿈 기호를 기준으로 구분하여 리스트로 변경하기
+```javascript
+// readline 모듈보다는 fs를 이용해 파일 전체를 읽어 들려 처리하기
+let fs = require('fs');
+let input = fs.readFileSync('input.txt').toString().split('\n');
+
+console.log(input);
+```
