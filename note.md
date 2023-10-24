@@ -27,7 +27,7 @@ for(let i = 1; i <= 100; i++) {
 console.log(answer);
 ```
 * 코딩 테스트용 JavaScript 기본 입력 - fs 모듈
- * 기능: 전체 텍스트를 읽어 온 뒤에, 줄바꿈 기호를 기준으로 구분하여 리스트로 변경하기
+  * 기능: 전체 텍스트를 읽어 온 뒤에, 줄바꿈 기호를 기준으로 구분하여 리스트로 변경하기
 ```javascript
 // readline 모듈보다는 fs를 이용해 파일 전체를 읽어 들려 처리하기
 let fs = require('fs');
@@ -36,7 +36,7 @@ let input = fs.readFileSync('input.txt').toString().split('\n');
 console.log(input);
 ```
 * 만일 fs 모듈을 사용할 수 없는 경우
- * readline 모듈을 사용하여 한 줄씩 입력을 받아서, 처리하여 정답을 출력할 수 있다.
+  * readline 모듈을 사용하여 한 줄씩 입력을 받아서, 처리하여 정답을 출력할 수 있다.
 ```javascript
 const rl = require('readline').createInterface({
  input: process.stdin,
@@ -70,7 +70,7 @@ let b = String(a);
 console.log(b); // "777"
 ```
 * 배열의 모든 원소에 대해 특정한 연산을 순차적으로 적용할 때 reduce()를 사용한다
- * Array.prototype.reduce()
+  * Array.prototype.reduce()
 ```javascript
 /*
 reduce() 매서드는 배열의 각 요소에 대해 reducer 함수를 실행한 뒤에 하나의 결과를 반환합니다.
@@ -89,7 +89,7 @@ let summary = data.reduce((a, b) => a + b);
 console.log(summary); // 28
 ```
 * 배열 초기화 방법
- * 알고리즘 문제를 풀 때 자주 사용되는 배열 초기화 방식은 다음과 같다.
+  * 알고리즘 문제를 풀 때 자주 사용되는 배열 초기화 방식은 다음과 같다.
 ```javascript
 // 직접 값을 설정하여 초기화
 let arr = [8, 1, 4, 5, 7];
