@@ -87,3 +87,13 @@ console.log(minValue); // 2
 // 원소의 합계 구하기 예제
 let summary = data.reduce((a, b) => a + b);
 console.log(summary); // 28
+```
+* 배열 초기화 방법
+ * 알고리즘 문제를 풀 때 자주 사용되는 배열 초기화 방식은 다음과 같다.
+```javascript
+// 직접 값을 설정하여 초기화
+let arr = [8, 1, 4, 5, 7];
+
+// 길이가 5이고 모든 원소의 값이 0인 배열 초기화
+let arr = new Array(5).fill(0);
+```
