@@ -35,3 +35,19 @@ let input = fs.readFileSync('input.txt').toString().split('\n');
 
 console.log(input);
 ```
+* 만일 fs 모듈을 사용할 수 없는 경우
+ * readline 모듈을 사용하여 한 줄씩 입력을 받아서, 처리하여 정답을 출력할 수 있다.
+```javascript
+const rl = require('readline').createInterface({
+ input: process.stdin,
+ output: process.stdout
+});
+
+let input = [];
+rl.on('line', function(line) {
+ // 콘솔 입력 창에서 줄바꿈(Enter)를 입력할 때마다 호출
+ input.push(line);
+}).on('close', function() {
+ console.log(input);
+ process.exit();
+});
