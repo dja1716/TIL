@@ -9,13 +9,12 @@ public class Main {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
         long n = Long.parseLong(br.readLine());
-        
         long answer = 0;
+        String numbers = br.readLine();
         
         for(int i = 0; i < n; i++) {
-            answer += Long.parseLong(br.readLine());
+            answer += numbers.charAt(i) - '0';
         }
-        
         System.out.println(answer);
     }
 }
