@@ -20,6 +20,7 @@ public class Main {
             for(int j = i + 1; j < n; j++) {
                 if(materials[i] + materials[j] == target) {
                     count++;
+                    break;
                 }
             }
         }
