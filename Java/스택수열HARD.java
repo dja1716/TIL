@@ -18,19 +18,19 @@ public class Main {
         }
         // setting stack
         stack.push(next++);
-        sb.append("+");
+        sb.append("+\n");
         // execution
         for(int i = 0; i < n; i++) {
             int target = targets[i];
             if(stack.isEmpty() || target > stack.peek()) {
                 while(true) {
                     stack.push(next);
-                    sb.append("+");
+                    sb.append("+\n");
                     next++;
                   
                     if(stack.peek() == target) {
                         stack.pop();
-                        sb.append("-");
+                        sb.append("-\n");
                         break;
                     }
 
@@ -46,7 +46,7 @@ public class Main {
                         break;
                     }
                     int temp = stack.pop();
-                    sb.append("-");
+                    sb.append("-\n");
                     if(temp == target) {
                         break;
                     }
@@ -60,9 +60,7 @@ public class Main {
 
         // print
         if(possible) {
-            for(int i = 0; i < sb.length(); i++) {
-                System.out.println(sb.charAt(i));
-            }
+            System.out.print(sb);
         } else {
             System.out.println("NO");
         }
