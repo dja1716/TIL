@@ -1,7 +1,9 @@
+package 나무자르기;
+
 import java.util.*;
 import java.io.*;
 
-public class Main {
+public class 나무자르기 {
     static int[] trees;
     static int N;
     static int M;

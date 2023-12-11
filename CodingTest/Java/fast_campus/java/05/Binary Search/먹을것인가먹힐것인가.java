@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Main {
+public class 먹을것인가먹힐것인가 {
     static int[] A;
     static int[] B;
     static int N;

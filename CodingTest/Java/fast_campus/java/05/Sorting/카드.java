@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Main {
+public class 카드 {
     static long value = 0;
     static long count = 0;
     static int N;

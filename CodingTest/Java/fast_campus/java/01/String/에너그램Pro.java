@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Main {
+public class 에너그램Pro {
     static int answer = 0;
     public static int[] count(String s) {
         int[] result = new int['z' - 'a' + 1];

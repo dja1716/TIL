@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Main {
+public class 부분수열의합 {
     static long target;
     static long sum = 0;
     static long count = 0;

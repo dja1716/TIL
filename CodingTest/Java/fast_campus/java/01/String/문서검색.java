@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Main {
+public class 문서검색 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         

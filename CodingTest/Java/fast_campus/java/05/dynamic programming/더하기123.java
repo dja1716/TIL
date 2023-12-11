@@ -1,7 +1,7 @@
 import java.util.*;
 import java.io.*;
 
-class Main {
+class 더하기123 {
     static int max = Integer.MIN_VALUE;
     static int[] answerArr;
     static int n;

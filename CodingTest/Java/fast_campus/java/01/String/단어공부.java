@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Main {
+public class 단어공부 {
     static int answer = 0;
     static char answerC;
     public static void main(String[] args) {

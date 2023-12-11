@@ -1,7 +1,7 @@
 import java.util.*;
 import java.io.*;
 
-public class Main {
+public class 국영수 {
     
     static class Student implements Comparable<Student> {
         public String name;

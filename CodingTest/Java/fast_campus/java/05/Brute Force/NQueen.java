@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Main {
+public class NQueen {
     static int[][] board;
     static int N;
     static int count;

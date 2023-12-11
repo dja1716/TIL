@@ -1,7 +1,7 @@
 import java.util.*;
 import java.io.*;
 
-public class Main {
+public class 화살표그리기 {
     static int ans = 0;
     static int N;
     static Elem[] arr;

@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Main {
+public class 연산자끼워넣기 {
     static int N;
     static int[] choices;
     static int[] ops = new int[4];
