@@ -1,7 +1,7 @@
 import java.util.*;
 import java.io.*;
 
-public class Main {
+public class 두용액 {
     static int N;
     static int[] arr;
     static int c1;
