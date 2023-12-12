@@ -1,4 +1,4 @@
-package coding_test;
+package coding_test.백준;
 import java.util.*;
 
 public class 동전0 {

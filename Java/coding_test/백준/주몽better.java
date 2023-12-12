@@ -1,8 +1,8 @@
-package coding_test;
+package coding_test.백준;
 import java.io.*;
-import java.util.StringTokenizer;
+import java.util.*;
 
-public class 주몽 {
+public class 주몽better {
     public static void main(String[] args) throws IOException {
         BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(bf.readLine());
@@ -17,12 +17,20 @@ public class 주몽 {
             materials[i] = Integer.parseInt(st.nextToken());
         }
         int count = 0;
-        for(int i = 0; i < n - 1; i++) {
-            for(int j = i + 1; j < n; j++) {
-                if(materials[i] + materials[j] == target) {
-                    count++;
-                    break;
-                }
+        Arrays.sort(materials);
+        
+        int start = 0;
+        int end = n - 1;
+        while(start < end) {
+            int result = materials[start] + materials[end];
+            if(result == target) {
+                count++;
+                start++;
+                end--;
+            } else if(result < target) {
+                start++;
+            } else if(result > target) {
+                end--;
             }
         }
         System.out.println(count);
