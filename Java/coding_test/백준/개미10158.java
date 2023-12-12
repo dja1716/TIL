@@ -15,7 +15,6 @@ public class 개미10158 {
 
     getInput();
     process();
-
   }
 
   public static void process() {
