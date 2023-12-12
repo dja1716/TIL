@@ -1,4 +1,3 @@
-package 공유기설치;
 import java.util.*;
 import java.io.*;
 

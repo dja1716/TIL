@@ -1,6 +1,7 @@
+package coding_test;
 import java.util.Scanner;
 
-public class Main {
+public class 평균Pro {
   public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
 

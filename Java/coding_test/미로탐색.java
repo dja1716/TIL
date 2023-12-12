@@ -1,7 +1,8 @@
+package coding_test;
 import java.io.*;
 import java.util.*;
 
-public class Main {
+public class 미로탐색 {
     static int N,M;
     static boolean[][] visited;
     static int[][] map;

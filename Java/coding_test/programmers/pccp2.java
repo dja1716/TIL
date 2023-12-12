@@ -1,4 +1,6 @@
-class Solution {
+package coding_test.programmers;
+
+class pccp2 {
   static int[][] gasMap;
   static int[] gasArr;
   static int minX;

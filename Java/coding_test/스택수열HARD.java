@@ -1,6 +1,7 @@
+package coding_test;
 import java.util.*;
 
-public class Main {
+public class 스택수열HARD {
     public static void main(String[] args) {
         boolean possible = true;
         Scanner sc = new Scanner(System.in);

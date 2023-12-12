@@ -1,7 +1,8 @@
+package coding_test;
 import java.util.*;
 import java.io.*;
 
-public class Main {
+public class 연결요소의개수 {
     public static void main(String[] args) throws IOException {
         // get input
         BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));

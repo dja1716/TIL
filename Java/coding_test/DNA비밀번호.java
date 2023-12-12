@@ -1,7 +1,8 @@
+package coding_test;
 import java.util.*;
 import java.io.*;
 
-public class Main {
+public class DNA비밀번호 {
 
     public static void main(String[] args) throws IOException {
         BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));

@@ -1,7 +1,8 @@
+package coding_test;
 import java.util.*;
 import java.io.*;
 
-public class Main {
+public class 수맞추기 {
     static int[] arr;
     static StringBuilder answer;
     static boolean found;

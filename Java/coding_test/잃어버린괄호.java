@@ -1,8 +1,9 @@
+package coding_test;
 import java.util.*;
 import java.io.*;
 
 
-public class Main {
+public class 잃어버린괄호 {
     public static void main(String[] args) throws IOException {
         BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
         String input = bf.readLine();

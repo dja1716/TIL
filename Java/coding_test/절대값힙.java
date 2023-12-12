@@ -1,6 +1,7 @@
+package coding_test;
 import java.util.*;
 
-public class Main {
+public class 절대값힙 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         StringBuffer sb = new StringBuffer();

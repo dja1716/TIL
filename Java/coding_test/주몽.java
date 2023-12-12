@@ -1,7 +1,8 @@
+package coding_test;
 import java.io.*;
 import java.util.StringTokenizer;
 
-public class Main {
+public class 주몽 {
     public static void main(String[] args) throws IOException {
         BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(bf.readLine());

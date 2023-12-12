@@ -1,5 +1,3 @@
-package 나무자르기;
-
 import java.util.*;
 import java.io.*;
 

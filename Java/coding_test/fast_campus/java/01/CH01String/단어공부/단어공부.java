@@ -1,3 +1,5 @@
+package 단어공부;
+
 import java.util.*;
 
 public class 단어공부 {

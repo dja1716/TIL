@@ -1,7 +1,8 @@
+package coding_test;
 import java.util.*;
 import java.io.*;
 
-public class Main {
+public class 연결요소개수Pro {
     static ArrayList<Integer>[] graph;
     static boolean[] visited;
     
