@@ -53,3 +53,13 @@ SELECT column1, column2 FROM table1
 UNION ALL
 SELECT column1, column2 FROM table2;
 ```
+# CASE
+```sql
+CASE
+    WHEN 조건1 THEN 결과1
+    WHEN 조건2 THEN 결과2
+    ...
+    ELSE 기본_결과
+END
+```
+* 조건은 조건문 또는 변수명이 사용될 수 있다.
