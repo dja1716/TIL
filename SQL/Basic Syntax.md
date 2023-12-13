@@ -54,6 +54,7 @@ UNION ALL
 SELECT column1, column2 FROM table2;
 ```
 # CASE
+* 문법
 ```sql
 CASE
     WHEN 조건1 THEN 결과1
@@ -61,5 +62,15 @@ CASE
     ...
     ELSE 기본_결과
 END
+```
+* 예시
+```sql
+SELECT 주문_금액,
+       CASE
+           WHEN 주문_금액 > 100 THEN '큰 주문'
+           ELSE '작은 주문'
+       END AS 주문_유형
+FROM 주문;
+
 ```
 * 조건은 조건문 또는 변수명이 사용될 수 있다.
