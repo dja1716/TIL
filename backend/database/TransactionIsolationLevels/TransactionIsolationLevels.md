@@ -99,7 +99,7 @@ https://incheol-jung.gitbook.io/docs/q-and-a/db/isolation-level
 ![스크린샷 2022-11-15 오후 8 10 15](https://user-images.githubusercontent.com/20631646/201905488-195adbb9-c24f-45ec-9fe5-64f99a24976d.png)
 
 
-## Posible Problems
+## Possible Problems
 
 1. there are more than other concurrency bugs than above chart covers
 2. using anomalies to define isolation levels only gives the end user a guarantee of what specific types of concurrency bugs are impossible.
