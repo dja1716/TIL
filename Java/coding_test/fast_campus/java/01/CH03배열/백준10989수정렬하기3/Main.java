@@ -22,6 +22,6 @@ public class Main {
               bw.write(i + "\n");
           }
       }
-      bw.close();
+      bw.close(); // or bw.flush();
   }
 }
