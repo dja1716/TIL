@@ -21,11 +21,14 @@ public class Main {
         st = new StringTokenizer(br.readLine());
         int target = Integer.parseInt(st.nextToken());
         int untill = target / 2;
+        if(untill * 2 == target) {
+            untill--;
+        }
         int answer = 0;
 
         for(int i = 1; i <= untill; i++) {
             int counterPart = target - i;
-            if(counterPart <= 1000000 && arr[i] && arr[target - i] && i  != counterPart) {
+            if(counterPart <= 1000000 && arr[i] && arr[target - i]) {
                 answer++;
             }
         }
