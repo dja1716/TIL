@@ -12,7 +12,7 @@
 * [SQL 기본문법1](SQL/syntax1.md): 2023.12.13
 
 ### 이외 카테고리
-* [VS Code로 Java 중단점 사용하여 디버깅하기](Other Categories/VS Code 중단점 JAVA.md): 2023.12.13
+* [VS Code로 Java 중단점 사용하여 디버깅하기](Other_Categories/VS_Code_중단점_JAVA.md): 2023.12.13
 
 ## 2023.12.13
 ### 오늘의 코딩 문제
