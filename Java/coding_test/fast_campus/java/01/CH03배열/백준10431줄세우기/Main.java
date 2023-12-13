@@ -3,6 +3,7 @@ import java.io.*;
 
 public class Main {
     static int T;
+    static int count = 0;
     public static void main(String[] args) throws Exception {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine());
@@ -21,36 +22,33 @@ public class Main {
     }
 
     public static void compute(int caseN, int[] children) {
-        int count = 0;
+        count = 0;
 
         for(int i = 1; i < 20; i++) {
             if(children[i] > children[i-1]) continue;
 
             for(int j = i - 1; j >= 0; j--) {
                 if(children[i] > children[j]) {
-                    int temp = children[j+1];
-                    int end = children[i];
-                    for(int k = j+2; k <= i; k++) {
-                        int temp2 = children[k];
-                        children[k] = temp;
-                        temp = temp2;
-                        count++;
-                    }
-                    children[j+1] = end;
+                  countStepBack(children, j+1, i);
                     break;
                 } else if(j == 0) {
-                    int temp = children[0];
-                    int end = children[i];
-                    for(int k = j+1; k <= i; k++) {
-                        int temp2 = children[k];
-                        children[k] = temp;
-                        temp = temp2;
-                        count++;
-                    }
-                    children[0] = end;
+                  countStepBack(children, j, i);
                 }
             }
         }
         System.out.println(caseN + " " + count);
-    } 
+    }
+    public static void countStepBack(int[] children, int j, int i) {
+      int temp = children[j];
+      int end = children[i];
+      
+      for(int k = j+1; k <= i; k++) {
+        int temp2 = children[k];
+        children[k] = temp;
+        temp = temp2;
+        count++;
+      }
+      children[j] = end;
+
+    }
 }
