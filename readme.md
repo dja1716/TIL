@@ -4,6 +4,7 @@
 * 링크를 클릭하시면 관련 내용을 자세히 보실 수 있어요^^ 우리 모두 화이팅해봐여~
 
 ### 코딩 문제
+* [백준3273두수의합 JAVA](Java/coding_test/fast_campus/java/01/CH03배열/백준3273두수의합)
 * [백준10989수정렬하기3 JAVA](Java/coding_test/fast_campus/java/01/CH03배열/백준10989수정렬하기3): 2023.12.13
 * [백준10431줄세우기 JAVA](Java/coding_test/fast_campus/java/01/CH03배열/백준10431줄세우기): 2023.12.13
 
@@ -16,6 +17,8 @@
     * 배열, 정렬
 * [백준10989수정렬하기3 JAVA](Java/coding_test/fast_campus/java/01/CH03배열/백준10989수정렬하기3)
     * 배열, 유사 정렬
+* [백준3273두수의합 JAVA](Java/coding_test/fast_campus/java/01/CH03배열/백준3273두수의합)
+    * 배열
 ### 오늘의 SQL
 * [SQL 기본문법1](SQL/syntax1.md)
     * 기본적인 select, update, case ... when, union, union all, group by ... having 등에 대한 문법을 복습하였다.
