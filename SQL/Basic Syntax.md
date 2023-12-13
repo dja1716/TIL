@@ -26,3 +26,9 @@ SELECT job
  GROUP BY job, deptno
 HAVING deptno = '20'
 ```
+# UPDATE
+```sql
+UPDATE 테이블명
+SET 컬럼1=value1, 컬럼2=value2, ...
+WHERE condition(조건)
+```
