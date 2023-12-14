@@ -18,6 +18,7 @@
 
 ### 알고리즘
 * [JAVA 삽입정렬과 제자리정렬](CodingTestConcepts/JAVA삽입정렬과제자리정렬.md): 2023.12.14
+* [완전탐색과 시뮬레이션](Java/coding_test/fast_campus/java/01/CH04완전탐색_시뮬레이션): 2023.12.14
 
 ## 2023.12.14
 ### 오늘의 코딩 문제
