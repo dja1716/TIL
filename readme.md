@@ -10,6 +10,7 @@
 * [백준10431줄세우기 JAVA](Java/coding_test/fast_campus/java/01/CH03배열/백준10431줄세우기): 2023.12.13
 
 ### SQL
+* [SQL 순위집계 함수 문법](SQL/순위집계syntax.md): 2023.12.14
 * [SQL 기본문법1](SQL/syntax1.md): 2023.12.13
 
 ### 이외 카테고리
@@ -18,6 +19,8 @@
 ## 2023.12.14
 ### 오늘의 코딩 문제
 * [프로그래머스 LVL3 Kakao](Java/coding_test/programmers/표병합): 2023.12.14
+### 오늘의 SQL
+* [SQL 순위집계 함수 문법](SQL/순위집계syntax.md): 2023.12.14
 
 ## 2023.12.13
 ### 오늘의 코딩 문제
