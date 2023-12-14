@@ -16,11 +16,18 @@
 ### 이외 카테고리
 * [VS Code로 Java 중단점 사용하여 디버깅하기](Other_Categories/VS_Code_중단점_JAVA.md): 2023.12.13
 
+### 알고리즘
+* [JAVA 삽입정렬과 제자리정렬](CodingTestConcepts/JAVA삽입정렬과제자리정렬.md): 2023.12.14
+
 ## 2023.12.14
 ### 오늘의 코딩 문제
 * [프로그래머스 LVL3 Kakao](Java/coding_test/programmers/표병합): 2023.12.14
+   * brute force
 ### 오늘의 SQL
 * [SQL 순위집계 함수 문법](SQL/순위집계syntax.md): 2023.12.14
+### 오늘의 알고리즘
+* [JAVA 삽입정렬과 제자리정렬](CodingTestConcepts/JAVA삽입정렬과제자리정렬.md): 2023.12.14
+   * 제자리 정렬과 out-of-place 정렬의 차이
 
 ## 2023.12.13
 ### 오늘의 코딩 문제
@@ -33,3 +40,5 @@
 ### 오늘의 SQL
 * [SQL 기본문법1](SQL/syntax1.md)
     * 기본적인 select, update, case ... when, union, union all, group by ... having 등에 대한 문법을 복습하였다.
+### 오늘의 꿀팁
+* [VS Code로 Java 중단점 사용하여 디버깅하기](Other_Categories/VS_Code_중단점_JAVA.md): 2023.12.13
