@@ -4,6 +4,7 @@
 * 링크를 클릭하시면 관련 내용을 자세히 보실 수 있어요^^ 우리 모두 화이팅해봐여~
 
 ### 코딩 문제
+* [백준11005진법변환2](Java/coding_test/fast_campus/java/01/CH04완전탐색_시뮬레이션/백준11005진법변환2): 2023.12.15
 * [백준10448유레카이론](Java/coding_test/fast_campus/java/01/CH04완전탐색_시뮬레이션/백준_유레카이론_10448): 2023.12.15
 * [프로그래머스 LVL3 Kakao](Java/coding_test/programmers/표병합): 2023.12.14
 * [백준3273두수의합 JAVA](Java/coding_test/fast_campus/java/01/CH03배열/백준3273두수의합): 2023.12.13
@@ -27,6 +28,8 @@
 ### 오늘의 코딩 문제
 * [백준10448유레카이론](Java/coding_test/fast_campus/java/01/CH04완전탐색_시뮬레이션/백준_유레카이론_10448)
    * brute force
+* [백준11005진법변환2](Java/coding_test/fast_campus/java/01/CH04완전탐색_시뮬레이션/백준11005진법변환2)
+  * 단순 구현
 ### 기타
 * [Java에서 다중루프를 한번에 break하기 (label)](Java/Other_Category/다중루프한번에break하기.md)
    * Q: 다중 루프에 한번의 break으로 루프 전체를 빠져나올 수 있을까?
