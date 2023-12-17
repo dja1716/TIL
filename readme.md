@@ -4,7 +4,7 @@
 * 링크를 클릭하시면 관련 내용을 자세히 보실 수 있어요^^ 우리 모두 화이팅해봐여~
 
 ### 코딩 문제
-* [프로그래머스 LVL3 Kakao](Java/coding_test/programmers/표병합)
+* [프로그래머스 LVL3 Kakao 표병합](Java/coding_test/programmers/표병합)
 * [백준11005진법변환2](Java/coding_test/fast_campus/java/01/CH04완전탐색_시뮬레이션/백준11005진법변환2)
 * [백준10448유레카이론](Java/coding_test/fast_campus/java/01/CH04완전탐색_시뮬레이션/백준_유레카이론_10448)
 * [백준3273두수의합 JAVA](Java/coding_test/fast_campus/java/01/CH03배열/백준3273두수의합)
