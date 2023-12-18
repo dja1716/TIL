@@ -25,6 +25,7 @@ console.log(a === b) // true
 ```
 
 ### 자바스크립트 DB 연결 예시
+* 아래와 같이 DB.instance라는 하나의 인스턴스를 기반으로 a,b를 생성할 수 있다. 이를 통해 데이터베이스 연결에 관한 인스턴스 생성 비용을 아낄 수 있다.
 ```javascript
 const URL = 'mongodb://localhost:27017/myapp'
 const createConnection = url => ({"url": url})
