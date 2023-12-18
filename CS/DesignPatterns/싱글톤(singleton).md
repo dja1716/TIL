@@ -23,3 +23,23 @@ const a = new Singleton();
 const b = new Singleton();
 console.log(a === b) // true
 ```
+
+### 자바스크립트 DB 연결 예시
+```javascript
+const URL = 'mongodb://localhost:27017/myapp'
+const createConnection = url => ({"url": url})
+class DB {
+  constructor(url) {
+    if(!DB.instance) {
+      DB.instance = createConnection(url);
+    }
+    return DB.instance;
+  }
+  connect() {
+    return this.instance;
+  }
+}
+const a = new DB(URL);
+const b = new DB(URL);
+console.log(a === b) // true
+```
