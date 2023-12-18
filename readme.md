@@ -14,7 +14,7 @@
 ### SQL
 * [SQL 순위집계 함수 문법](SQL/순위집계syntax.md)
 * [SQL 기본문법1](SQL/syntax1.md)
-* [SQL 기본문법1](SQL/유용한_날짜함수.md)
+* [SQL 날짜함수](SQL/유용한_날짜함수.md)
 
 ### 알고리즘
 * [JAVA 삽입정렬과 제자리정렬](CodingTestConcepts/JAVA삽입정렬과제자리정렬.md)
