@@ -20,6 +20,9 @@
 * [JAVA 삽입정렬과 제자리정렬](CodingTestConcepts/JAVA삽입정렬과제자리정렬.md)
 * [완전탐색과 시뮬레이션](Java/coding_test/fast_campus/java/01/CH04완전탐색_시뮬레이션)
 
+### CS (Computer Science)
+* [디자인 패턴 - 싱글톤 패턴](CS/DesignPatterns/싱글톤(singleton).md)
+
 
 ### 이외 카테고리
 * [Java에서 다중루프를 한번에 break하기 (label)](Java/Other_Category/다중루프한번에break하기.md)
