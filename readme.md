@@ -3,6 +3,21 @@
 
 * 링크를 클릭하시면 관련 내용을 자세히 보실 수 있어요^^ 우리 모두 화이팅해봐여~
 
+
+
+
+
+### 알고리즘
+* [JAVA 삽입정렬과 제자리정렬](CodingTestConcepts/JAVA삽입정렬과제자리정렬.md)
+* [완전탐색과 시뮬레이션](Java/coding_test/fast_campus/java/01/CH04완전탐색_시뮬레이션)
+
+### CS (Computer Science)
+* [디자인 패턴 - 싱글톤 패턴](CS/DesignPatterns/싱글톤(singleton).md)
+
+### Database
+* [데이터무결성](backend/Database/데이터무결성)
+* [TransactionIsolationLevels](https://github.com/dja1716/TIL/tree/main/backend/Database/TransactionIsolationLevels)
+
 ### 코딩 문제
 * [프로그래머스 LVL3 Kakao 표병합](Java/coding_test/programmers/표병합)
 * [백준10250ACM호텔](Java/coding_test/fast_campus/java/01/CH04완전탐색_시뮬레이션/백준10250ACM호텔)
@@ -18,14 +33,6 @@
 * [SQL 순위집계 함수 문법](SQL/순위집계syntax.md)
 * [SQL 기본문법1](SQL/syntax1.md)
 * [SQL 날짜함수](SQL/유용한_날짜함수.md)
-
-### 알고리즘
-* [JAVA 삽입정렬과 제자리정렬](CodingTestConcepts/JAVA삽입정렬과제자리정렬.md)
-* [완전탐색과 시뮬레이션](Java/coding_test/fast_campus/java/01/CH04완전탐색_시뮬레이션)
-
-### CS (Computer Science)
-* [디자인 패턴 - 싱글톤 패턴](CS/DesignPatterns/싱글톤(singleton).md)
-
 
 ### 이외 카테고리
 * [Java에서 다중루프를 한번에 break하기 (label)](Java/Other_Category/다중루프한번에break하기.md)
