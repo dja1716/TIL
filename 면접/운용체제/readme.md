@@ -7,3 +7,4 @@
 ### 프로세스, 스레드
 - 프로세스: 실행중인 프로그램
 - 스레드: 프로세스 안 실행 단위
+- https://gmlwjd9405.github.io/2018/09/14/process-vs-thread.html
