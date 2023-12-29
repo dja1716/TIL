@@ -3,3 +3,4 @@
 - 프로세스, 저장장치, 네트워킹, 사용자, 하드웨어를 관리
 ### 메모리 구조 (RAM)
 - Code, Data, Heap, Stack
+- https://tcpschool.com/c/c_memory_structure
