@@ -4,3 +4,6 @@
 ### 메모리 구조 (RAM)
 - Code, Data, Heap, Stack
 - https://tcpschool.com/c/c_memory_structure
+### 프로세스, 스레드
+- 프로세스: 실행중인 프로그램
+- 스레드: 프로세스 안 실행 단위
