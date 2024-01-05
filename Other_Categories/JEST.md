@@ -25,3 +25,48 @@
 - toReturn() / toHaveReturned() 함수가 오류없이 반환되었는지 테스트
 - toReturnTimes() / toHaveReturnedTimes() : 함수가 지정한 횟수만큼 오류없이 반환되었는지 테스트
 - toReturnWith() / toHaveReturnedWith(value) : 함수가 지정한 값을 반환하는지 테스트
+
+## 비동기 코드 테스트 방법
+- 콜백
+```javascript
+test("fetch a user", (done) => { // 콜백 인자에 done을 써서 비동기 함수 테스트임을 반드시 명시 !!
+  const cb = (user) => {
+    // 인자로 받은 리턴값 user객체가 해당 객체와 Equal일 경우 테스트
+    expect(user).toEqual({ 
+      id: 1,
+      name: "User1",
+      email: "1@test.com",
+    });
+    
+    done(); // 비동기 실행 end
+  }
+  
+  fetchUser(1, cb);
+});
+```
+- Promise
+```javascript
+test("fetch a user", () => {
+  // Promise 객체 함수에 return을 써서, Jest Runner가 Promise가 resolve될때까지 기다려 주게 한다.
+  return fetchUser(1) 
+  	.then((user) => {
+        expect(user).toEqual({
+          id: 1,
+          name: "User1",
+          email: "1@test.com",
+    	});
+  	});
+});
+```
+- async/await
+```javascript
+test("fetch a user", async () => {
+  const user = await fetchUser(1);
+  
+  expect(user).toEqual({
+    id: 1,
+    name: "User1",
+    email: "1@test.com",
+  });
+});
+```
