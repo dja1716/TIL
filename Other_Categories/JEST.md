@@ -113,3 +113,28 @@ User.findOrCreate().mockReturnValue() // jest.fn() 처리 없이 자동으로 �
 ```
 ### jest.spyOn
 - 어떤 객체에 속한 함수의 구현을 가짜로 대체하지 않고, 해당 함수의 호출 여부와 어떻게 호출되었는지만 알아내야 할때
+### before() / after()
+- before / after 이라는 말은, 테스트 하기 전 / 한 후에 데이터 설정 혹은 정리를 위해 쓰인다
+### beforeAll() / afterAll()
+- 맨 처음과 맨 끝에 한번씩만 호출
+```javascript
+let connection;
+
+// 테스트 실행하기전에 미리 전역 설정
+beforeAll(() => {
+  conection = openConnection({ host: "...", port: "..." });
+});
+
+
+... 여러개의 test 코드들
+... 여러 테스트 함수 내에서 connection 객체를 많이 사용한다.
+
+
+// 테스트 완료후 해체
+afterAll(() => {
+  conection.close();
+});
+```
+### beforeEach() / afterEach()
+- beforeAll() : 전역으로 초기에 한번 호출되는 것
+- beforeEach() : 여러 테스트 함수들이 각각 실행될 떄마다 매번 불러와는 것 
