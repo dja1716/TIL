@@ -73,3 +73,43 @@ test("fetch a user", async () => {
 ## Mocking
 - mocking이란 테스트하고자 하는 코드가 의존하는 function이나 class에 대해 모조품을 만들어 테스팅하는 것
 - 단위 테스트를 작성할 때, 해당 코드가 의존하는 부분을 가짜(mock)로 대체하는 기법
+### jest.fn
+- 가짜 함수 (mock function) 생성
+- mockReturnValue(value) : 반환값을 지정해준다
+```javascript
+const mock = jest.fn();
+
+mock.mockReturnValue(42);
+mock(); // 42
+
+mock.mockReturnValue(63);
+mock(); // 63
+```
+- mockImplementation(value) : mock 함수를 즉석으로 구현할 수 있다
+```javascript
+const mockFn = jest.fn();
+
+// 동작하는 모크 함수를 하나 만든다.
+mockFn.mockImplementation( (name) => `I am ${name}!` ); 
+
+console.log(mockFn("Dale")); // I am Dale!
+```
+```javascript
+// 단축 속성으로 아예 jest.fn() 안에다가 바로 함수를 써서도 똑같이 구현할 수 있다.
+// 이 방법이 더 간편하고 직관적이기에 자주 사용하는 편이다.
+const mockFn = jest.fn( (name) => `I am ${name}!` );
+
+console.log(mockFn("Dale")); // I am Dale!
+```
+- mockResolvedValue(value) / mockRejectValue(value) : 비동기 함수에서 resolve / reject 값을 받는다
+### jest.mock
+- jest.fn() : 개별적으로 하나씩 모킹 처리해줄 떄 사용
+- jest.mock() : 그룹을 한꺼번에 모킹 처리해줄 때 사용
+```javascript
+jest.mock('../models/user'); // ../models/user.js에서 export한 객체와 모든 내부요소들을 그룹 모킹화 한다.
+const User = require('../models/user'); // 이제 앞으로 ../models/user.js에서 꺼내 쓰는 요소들은 모두 모킹화 된 것들이다.
+
+User.findOrCreate().mockReturnValue() // jest.fn() 처리 없이 자동으로 모킹화 되어있어 바로 사용하면 된다.
+```
+### jest.spyOn
+- 어떤 객체에 속한 함수의 구현을 가짜로 대체하지 않고, 해당 함수의 호출 여부와 어떻게 호출되었는지만 알아내야 할때
