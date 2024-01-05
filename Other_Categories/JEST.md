@@ -70,3 +70,6 @@ test("fetch a user", async () => {
   });
 });
 ```
+## Mocking
+- mocking이란 테스트하고자 하는 코드가 의존하는 function이나 class에 대해 모조품을 만들어 테스팅하는 것
+- 단위 테스트를 작성할 때, 해당 코드가 의존하는 부분을 가짜(mock)로 대체하는 기법
