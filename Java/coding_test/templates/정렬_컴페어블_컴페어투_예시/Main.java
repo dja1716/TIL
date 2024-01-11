@@ -1,3 +1,4 @@
+package Java.coding_test.templates.정렬_컴페어블_컴페어투_예시;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.IOException;
