@@ -37,6 +37,7 @@
 * [백준2817ALPS식투표](Java/coding_test/fast_campus/java/01/CH04완전탐색_시뮬레이션/백준2817ALPS식투표)
 * [백준10250ACM호텔](Java/coding_test/fast_campus/java/01/CH04완전탐색_시뮬레이션/백준10250ACM호텔)
 * [백준3085사탕게임](Java/coding_test/fast_campus/java/01/CH04완전탐색_시뮬레이션/백준3085사탕게임)
+* [백준10814나이순정렬](Java/coding_test/fast_campus/java/01/CH05정렬/백준10814나이순정렬/Main.java)
 * [백준판화1730](Java/coding_test/fast_campus/java/01/CH04완전탐색_시뮬레이션/백준판화1730)
 * [백준11068회전문인수](Java/coding_test/fast_campus/java/01/CH04완전탐색_시뮬레이션/백준회전문인수11068)
 * [백준11005진법변환2](Java/coding_test/fast_campus/java/01/CH04완전탐색_시뮬레이션/백준11005진법변환2)
