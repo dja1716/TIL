@@ -27,18 +27,18 @@ public class Main {
         }
         List<String> answer = new ArrayList<>(log);
 
-            Comparator<String> customComparator = new Comparator<String>() {
-                @Override
-                public int compare(String o1, String o2) {
-                    return o2.compareTo(o1);
-                }
-            };
-
-            Collections.sort(answer, customComparator);
-            
-            for(String name : answer) {
-                bw.write(name + '\n');
+        Comparator<String> customComparator = new Comparator<String>() {
+            @Override
+            public int compare(String o1, String o2) {
+                return o2.compareTo(o1);
             }
+        };
+
+        Collections.sort(answer, customComparator);
+        
+        for(String name : answer) {
+            bw.write(name + '\n');
+        }
 
         bw.flush();
     }
