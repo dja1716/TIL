@@ -33,6 +33,7 @@
 
 ### 코딩 문제
 * [프로그래머스 LVL3 Kakao 표병합](Java/coding_test/programmers/표병합)
+* [백준1931회의실배정](Java/coding_test/fast_campus/java/01/CH05정렬/백준1931회의실배정/Main.java)
 * [백준2840행운의바퀴](Java/coding_test/fast_campus/java/01/CH04완전탐색_시뮬레이션/백준2840행운의바퀴)
 * [백준2817ALPS식투표](Java/coding_test/fast_campus/java/01/CH04완전탐색_시뮬레이션/백준2817ALPS식투표)
 * [백준1302베스트셀러](Java/coding_test/fast_campus/java/01/CH05정렬/백준1302베스트셀러/Main.java)
