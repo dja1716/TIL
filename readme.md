@@ -29,6 +29,7 @@
 * [Java에서 다중루프를 한번에 break하기 (label)](Java/Other_Category/다중루프한번에break하기.md)
 * [Java String vs StringBuilder vs StringBuffer](Java/Other_Category/String_VS_StringBuilder_VS_StringBuffer.md)
 * [VS Code로 Java 중단점 사용하여 디버깅하기](Other_Categories/VS_Code_중단점_JAVA.md)
+* [java에서 이분탐색 구현없이 사용하기](Java/Other_Category/Arrays.binarySearch.md)
 
 
 ### 코딩 문제
