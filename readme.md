@@ -29,11 +29,13 @@
 * [Java에서 다중루프를 한번에 break하기 (label)](Java/Other_Category/다중루프한번에break하기.md)
 * [Java String vs StringBuilder vs StringBuffer](Java/Other_Category/String_VS_StringBuilder_VS_StringBuffer.md)
 * [VS Code로 Java 중단점 사용하여 디버깅하기](Other_Categories/VS_Code_중단점_JAVA.md)
+* [java에서 이분탐색 구현없이 사용하기](Java/Other_Category/Arrays.binarySearch.md)
 
 
 ### 코딩 문제
 * [프로그래머스 LVL3 Kakao 표병합](Java/coding_test/programmers/kakao/표병합)
 * [프로그래머스 LVL2 Kakao 택배배달과수거하기](Java/coding_test/programmers/kakao/택배배달과수거하기/Solution.java)
+* [백준17232생명게임](Java/coding_test/fast_campus/java/01/CH06구간합/백준17232생명게임/Main.java)
 * [백준19951태상이의훈련소생활](Java/coding_test/fast_campus/java/01/CH06구간합/백준19951태상이의훈련소생활/Main.java)
 * [백준11660구간합구하기5](Java/coding_test/fast_campus/java/01/CH06구간합/백준11660구간합구하기5/Main.java)
 * [백준1931회의실배정](Java/coding_test/fast_campus/java/01/CH05정렬/백준1931회의실배정/Main.java)
