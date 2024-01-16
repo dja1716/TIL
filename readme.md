@@ -38,6 +38,7 @@
 * [백준17232생명게임](Java/coding_test/fast_campus/java/01/CH06구간합/백준17232생명게임/Main.java)
 * [백준19951태상이의훈련소생활](Java/coding_test/fast_campus/java/01/CH06구간합/백준19951태상이의훈련소생활/Main.java)
 * [백준11660구간합구하기5](Java/coding_test/fast_campus/java/01/CH06구간합/백준11660구간합구하기5/Main.java)
+* [백준2295세수의합](Java/coding_test/fast_campus/java/01/CH07이분탐색/백준2295세수의합/Main.java)
 * [백준1931회의실배정](Java/coding_test/fast_campus/java/01/CH05정렬/백준1931회의실배정/Main.java)
 * [백준2840행운의바퀴](Java/coding_test/fast_campus/java/01/CH04완전탐색_시뮬레이션/백준2840행운의바퀴)
 * [백준2817ALPS식투표](Java/coding_test/fast_campus/java/01/CH04완전탐색_시뮬레이션/백준2817ALPS식투표)
