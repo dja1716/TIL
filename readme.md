@@ -35,6 +35,7 @@
 ### 코딩 문제
 * [프로그래머스 LVL3 Kakao 표병합](Java/coding_test/programmers/kakao/표병합)
 * [프로그래머스 LVL2 Kakao 택배배달과수거하기](Java/coding_test/programmers/kakao/택배배달과수거하기/Solution.java)
+* [백준16472고냥이](Java/coding_test/fast_campus/java/01/CH08투포인터/백준16472고냥이/Main.java)
 * [백준17232생명게임](Java/coding_test/fast_campus/java/01/CH06구간합/백준17232생명게임/Main.java)
 * [백준17609회문](Java/coding_test/fast_campus/java/01/CH08투포인터/백준17609회문/Main.java)
 * [백준15831준표의조약돌](Java/coding_test/fast_campus/java/01/CH08투포인터/백준15831준표의조약돌/Main.java)
