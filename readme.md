@@ -51,6 +51,7 @@
 * [백준1302베스트셀러](Java/coding_test/fast_campus/java/01/CH05정렬/백준1302베스트셀러/Main.java)
 * [백준2910빈도정렬](Java/coding_test/fast_campus/java/01/CH05정렬/백준2910빈도정렬/Main.java)
 * [백준18870좌표압축](Java/coding_test/fast_campus/java/01/CH05정렬/백준18870좌표압축/Main.java)
+* [백준1158요세푸스문제](Java/coding_test/fast_campus/java/01/CH09리스트/백준1158요세푸스문제/Main.java)
 * [백준7785회사에있는사람](Java/coding_test/fast_campus/java/01/CH05정렬/백준7785회사에있는사람)
 * [백준10250ACM호텔](Java/coding_test/fast_campus/java/01/CH04완전탐색_시뮬레이션/백준10250ACM호텔)
 * [백준3085사탕게임](Java/coding_test/fast_campus/java/01/CH04완전탐색_시뮬레이션/백준3085사탕게임)
