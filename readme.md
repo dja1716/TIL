@@ -43,6 +43,7 @@
 * [백준19951태상이의훈련소생활](Java/coding_test/fast_campus/java/01/CH06구간합/백준19951태상이의훈련소생활/Main.java)
 * [백준2230수고르기](Java/coding_test/fast_campus/java/01/CH08투포인터/백준2230수고르기)
 * [백준11660구간합구하기5](Java/coding_test/fast_campus/java/01/CH06구간합/백준11660구간합구하기5/Main.java)
+* [백준1406에디터](Java/coding_test/fast_campus/java/01/CH09리스트/백준1406에디터/Main.java)
 * [백준10816숫자카드2](Java/coding_test/fast_campus/java/01/CH07이분탐색/백준10816숫자카드2/Main.java)
 * [백준2295세수의합](Java/coding_test/fast_campus/java/01/CH07이분탐색/백준2295세수의합/Main.java)
 * [백준1931회의실배정](Java/coding_test/fast_campus/java/01/CH05정렬/백준1931회의실배정/Main.java)
