@@ -37,6 +37,8 @@
 * [프로그래머스 LVL2 Kakao 택배배달과수거하기](Java/coding_test/programmers/kakao/택배배달과수거하기/Solution.java)
 * [소프티어lv2금고털이](Java/coding_test/소프티어/lv2금고털이/Main.java)
 * [소프티어lv3성적평균](Java/coding_test/소프티어/lv3성적평균/Main.java)
+* [소프티어lv3징검다리](Java/coding_test/소프티어/lv3징검다리/Main.java)
+* [소프티어lv3강의실배정](Java/coding_test/소프티어/lv3강의실배정/Main.java)
 * [소프티어lv5복잡한 조립라인](Java/coding_test/소프티어/lv5복잡한_조립라인/Main.java)
 * [백준16472고냥이](Java/coding_test/fast_campus/java/01/CH08투포인터/백준16472고냥이/Main.java)
 * [백준17232생명게임](Java/coding_test/fast_campus/java/01/CH06구간합/백준17232생명게임/Main.java)
