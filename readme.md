@@ -42,6 +42,8 @@
 * [소프티어lv3우물안개구리](Java/coding_test/소프티어/lv3우물안개구리/Main.java)
 * [소프티어lv3징검다리](Java/coding_test/소프티어/lv3징검다리/Main.java)
 * [소프티어lv3동계테스트시점예측](Java/coding_test/소프티어/lv3동계테스트시점예측/Main.java)
+* [소프티어lv3스마트물류](Java/coding_test/소프티어/lv3스마트물류/Main.java)
+* [소프티어lv3택배마스터광우](Java/coding_test/소프티어/lv3택배마스터광우/Main.java)
 * [소프티어lv3강의실배정](Java/coding_test/소프티어/lv3강의실배정/Main.java)
 * [소프티어lv4징검다리2](Java/coding_test/소프티어/lv4징검다리2/Main.java)
 * [소프티어lv4복잡한_조립라인1](Java/coding_test/소프티어/lv4복잡한_조립라인1/Main.java)
