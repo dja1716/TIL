@@ -57,11 +57,5 @@ public class Main {
 			}
 		}
 
-		while (!q.isEmpty()) {
-			int n = q.poll();
-			if (n == K) {
-				cnt++;
-			}
-		}
 	}
 }
