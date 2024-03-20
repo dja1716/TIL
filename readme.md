@@ -35,6 +35,7 @@
 ### 코딩 문제
 * [프로그래머스 LVL3 Kakao 표병합](Java/coding_test/programmers/kakao/표병합)
 * [프로그래머스 LVL2 Kakao 택배배달과수거하기](Java/coding_test/programmers/kakao/택배배달과수거하기/Solution.java)
+* [프로그래머스 LVL1 Kakao 가장 많이 받은 선물](Java/coding_test/programmers/kakao/2024_KAKAO_WINTER_INTERNSHIP/가장많이받은선물/Main.java)
 * [소프티어lv2금고털이](Java/coding_test/소프티어/lv2금고털이/Main.java)
 * [소프티어lv2장애물 인식 프로그램](Java/coding_test/소프티어/lv2장애물_인식_프로그램/Main.java)
 * [소프티어lv2 8단 변속기](Java/coding_test/소프티어/lv2_8단_변속기/Main.java)
