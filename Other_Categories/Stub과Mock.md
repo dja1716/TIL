@@ -67,3 +67,6 @@
    ```
 
 위 예제에서 볼 수 있듯이, Nest.js와 Jest를 함께 사용하여 Test Double을 구현하는 것은 TypeScript 및 JavaScript의 기본 개념과 Jest의 특성에 의존합니다. Jest는 스파이, 스텁, 모의 객체 등을 제공하며, Nest.js는 이러한 기능을 활용하여 테스트 가능한 코드를 작성하고 테스트를 수행하는 데 사용됩니다.
+
+### Mock과 Stub 차이점 요약
+![스크린샷 2024-04-02 오후 4 28 54](https://github.com/dja1716/TIL/assets/20631646/6e91f3ca-df92-4f63-b691-e4daafa49e0d)
