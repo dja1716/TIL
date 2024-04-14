@@ -52,6 +52,7 @@
 * [소프티어lv2금고털이](Java/coding_test/소프티어/lv2금고털이/Main.java)
 * [소프티어lv2장애물 인식 프로그램](Java/coding_test/소프티어/lv2장애물_인식_프로그램/Main.java)
 * [소프티어lv2 8단 변속기](Java/coding_test/소프티어/lv2_8단_변속기/Main.java)
+* [백준7682틱텍토](Java/coding_test/백준/틱텍토7682.java)
 * [백준2624동전바꿔주기](Java/coding_test/fast_campus/java/03/CH04동적계획법#1/백준2624동전바꿔주기/Main.java)
 * [백준2294동전2](Java/coding_test/fast_campus/java/03/CH04동적계획법#1/백준2294동전2/Main.java)
 * [백준2156포도주시식](Java/coding_test/fast_campus/java/03/CH04동적계획법#1/백준2156포도주시식/Main.java)
