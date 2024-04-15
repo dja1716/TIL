@@ -15,6 +15,9 @@ class Solution {
             return j1.duration - j2.duration;
         });
         Arrays.sort(jobs, (o1, o2) -> {
+            if(o1[0] == o2[0]) {
+                return o1[1] - o2[1];
+            }
             return o1[0] - o2[0];
         });
         
@@ -29,17 +32,6 @@ class Solution {
                 pq.add(nj);
                 idx++;
                 curTime = curTime > nj.arrivedAt ? curTime : nj.arrivedAt;
-                while(idx < jobs.length) {
-                    if(jobs[idx][0] <= curTime) {
-                        Job nj2 = new Job();
-                        nj2.duration = jobs[idx][1];
-                        nj2.arrivedAt = jobs[idx][0];
-                        idx++;
-                        pq.add(nj2);
-                    } else {
-                        break;
-                    }
-                }
             }
             
             nj = pq.poll();
