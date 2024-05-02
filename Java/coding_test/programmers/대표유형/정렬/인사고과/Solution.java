@@ -1,4 +1,4 @@
-package Java.coding_test.programmers.lvl3.인사고과;
+package Java.coding_test.programmers.대표유형.정렬.인사고과;
 import java.util.*;
 
 
