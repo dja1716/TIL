@@ -10,7 +10,6 @@ class Solution {
         for(long a = 1; a <= r2; a++) {
             long o = (long) Math.floor(Math.sqrt(outer - a * a));
             long i = (long) Math.ceil(Math.sqrt(inner - a * a));
-            // System.out.println("a: " + a + " o: " + o + " i: " + i);
             answer += o - i + 1;
         }
         
