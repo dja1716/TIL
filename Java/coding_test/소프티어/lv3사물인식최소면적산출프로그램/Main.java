@@ -18,7 +18,6 @@ public class Main {
     static void solve() {
         DFS(1, 0, 0, 0, 0);
         System.out.println(answer);
-        
     }
 
     static void DFS(int idx, int minX, int minY, int maxX, int maxY) {
